@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+.detailCard{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30vh;
+    height: 500px;
+    align-items: center;
+}
+.InfoContainer{
+    display: grid;
+    grid-template-areas: 
+    'title title'
+    'article1 article2'
+    'borderbox borderbox'
+    ;
+}
+.title{
+    grid-area: title;
+}
+.article1{
+    grid-area: article1;
+}
+.article2{
+    grid-area: article2;
+}
+.borderbox{
+    grid-area: borderbox;
+    
+
+
+}
+.borderbox button{
+    background-color: #fff;
+    margin: 2px;
+    border: 0.3px solid;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.borderbox button:hover{
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+  
+}
+
+.darkCard{
+    color: #fff;
+    
+}
+.darkCardbtn button{
+    color: #fff;
+    background-color: hsl(207, 26%, 17%);
+}
+.darkCardbtn button:hover{
+    color: #fff;
+    background-color:hsl(209, 23%, 22%);
+    font-style: italic;
+
+}
+.buttonback{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 64px;
+    left: 256px;
+    padding-top: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    border: 0.3px solid;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.buttonback:hover{
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+  
+}
+.darkbuttonback{
+    color: #fff;
+    background-color: hsl(207, 26%, 17%);
+}
+.darkbuttonback:hover{
+    color: #fff;
+    background-color:hsl(209, 23%, 22%);
+    font-style: italic;
+
+}

@@ -1,0 +1,15 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(4,190px);
+    margin-top: 0px;
+    padding-left: 70px;
+    column-gap: 116px;
+    row-gap: 51px;
+    padding-bottom: 100vh;
+    
+    
+    background-color: hsl(0, 0%, 98%);
+}
+.dark{
+    background-color: hsl(207, 26%, 17%);
+}

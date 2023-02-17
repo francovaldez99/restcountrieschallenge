@@ -1,0 +1,75 @@
+.TitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 29px 0 29px;
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+.divInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divInput label{
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    background-color: transparent;
+    z-index: 1;
+
+}
+.divInput input{
+    position: relative;
+    text-align: right;
+ 
+    right: 46px;
+}
+.TitleContainer h1{
+    font-size: 25px;
+}
+.ModeContainers{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.darkTitleContainer{
+background-color: hsl(209, 23%, 22%);
+color: #fff;
+box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.3);
+
+}
+.ContainerInputSelectandSearch{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 43px;
+    background-color: hsl(0, 0%, 98%);
+    padding-inline: 73px;
+    margin-top: 0px;
+}
+.ContainerInputSelectandSearch input,select{
+    padding: 13px 115px 13px 0;
+ 
+}
+.ContainerInputSelectandSearch select{
+    border-radius: 5px;
+}
+.ContainerInputSelectandSearchdark{
+background-color: hsl(207, 26%, 17%);
+
+}
+.ContainerInputSelectandSearchdark input{
+    background-color: hsl(209, 23%, 22%);
+    color:#fff;
+    border: none;
+}
+.ContainerInputSelectandSearchdark select{
+    background-color: hsl(209, 23%, 22%);
+    color:#fff;
+    border: hsl(209, 23%, 22%);
+    border-radius: 5px;
+}
